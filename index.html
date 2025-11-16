@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Caregivers – Help Families Stay Connected to Their Loved One’s Care</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Tailwind CSS via CDN for rapid prototyping -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-white">
+  <!-- Header with logo and demo link -->
+  <header class="border-b bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+      <!-- Logo: uses a supplied PNG for a more polished feel -->
+      <a href="#" class="flex items-center space-x-3">
+        <img src="./public/CaregiversBlue.svg" alt="Caregivers logo" class="w-60" />
+        <div class="flex flex-col leading-tight">
+          <span class="font-semibold text-lg tracking-tight"></span>
+        </div>
+      </a>
+      <!-- Call‑to‑action for agencies -->
+      <a href="mailto:hello@caregiversapp.com"
+         class="hidden sm:inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold border border-blue-500 text-blue-600 hover:bg-blue-50 transition">
+        Book a demo
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero section focusing on balanced benefits: information & mental health -->
+  <section class="bg-blue-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 lg:py-16 flex flex-col lg:flex-row items-center gap-10">
+      <!-- Textual value proposition -->
+      <div class="lg:w-1/2">
+        <p class="text-xs font-semibold tracking-[0.2em] text-blue-500 uppercase mb-3">
+          Built for home care agencies
+        </p>
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-4">
+          Now you can help families stay better connected to their loved one’s care.
+        </h1>
+        <p class="text-lg leading-relaxed text-gray-700 font-medium mb-5">
+          Caregivers shows how the people you support are really doing – from daily visit notes to mood
+          trends and medication side‑effect visibility – so their families stay informed and can
+          support the whole person, mind and body.
+        </p>
+        <ul class="space-y-2 text-sm text-gray-700 mb-6">
+          <li>• Daily visit notes give families day‑to‑day insight into activities and well‑being.</li>
+          <li>• Mood and wellbeing trends highlight emotional health, not just tasks, so families understand patterns.</li>
+          <li>• Medication visibility and side‑effect awareness help you inform families and keep everyone prepared.</li>
+        </ul>
+        <p class="text-xs text-gray-500 mb-4">Available as a mobile app for iOS & Android.</p>
+        <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+          <a href="mailto:hello@caregiversapp.com"
+             class="inline-flex justify-center items-center px-6 py-3 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-sm transition">
+            Book a demo for your agency
+          </a>
+          <span class="text-xs text-gray-500">
+            Built for CQC‑registered home care providers.
+          </span>
+        </div>
+      </div>
+      <!-- Visual representation: iPhone and report -->
+      <div class="lg:w-1/2 w-full flex flex-col sm:flex-row items-center justify-center gap-6">
+        <!-- Phone representation with app-style screen -->
+        <div class="relative bg-gray-200 border-4 border-gray-300 rounded-3xl shadow-lg p-2 flex items-center justify-center w-40 h-80 sm:w-48 sm:h-96 overflow-hidden">
+          <div class="w-full h-full bg-white rounded-2xl flex flex-col overflow-hidden">
+            <!-- App header -->
+            <div class="h-8 bg-blue-100 flex items-center justify-center border-b border-gray-200">
+              <span class="text-xs font-semibold text-gray-700">Caregivers</span>
+            </div>
+            <!-- Content area with multiple patient cards -->
+            <div class="flex-1 p-2 overflow-y-auto bg-gray-50 space-y-2">
+              <!-- Card 1: Patricia -->
+              <div class="bg-white rounded-xl shadow border border-gray-200 p-2">
+                <div class="flex items-center mb-1">
+                  <div class="w-5 h-5 rounded-full bg-gray-300 mr-2 flex items-center justify-center text-gray-600 text-xs font-bold">P</div>
+                  <div>
+                    <p class="text-[10px] font-semibold text-gray-800">Patricia</p>
+                    <p class="text-[8px] text-gray-500">Age 82</p>
+                  </div>
+                </div>
+                <div class="flex items-end space-x-0.5 mt-1 h-12">
+                  <div class="flex-1 bg-blue-300 rounded-sm" style="height:70%"></div>
+                  <div class="flex-1 bg-blue-400 rounded-sm" style="height:60%"></div>
+                  <div class="flex-1 bg-blue-200 rounded-sm" style="height:35%"></div>
+                  <div class="flex-1 bg-blue-500 rounded-sm" style="height:55%"></div>
+                  <div class="flex-1 bg-blue-300 rounded-sm" style="height:40%"></div>
+                  <div class="flex-1 bg-blue-200 rounded-sm" style="height:30%"></div>
+                  <div class="flex-1 bg-blue-400 rounded-sm" style="height:50%"></div>
+                </div>
+                <p class="text-[7.5px] text-gray-600 mt-1"><span class="font-semibold">Mood:</span> mostly stable</p>
+                <p class="text-[7.5px] text-gray-600"><span class="font-semibold">Check-in:</span> Ate breakfast and took medication.</p>
+              </div>
+              <!-- Card 2: John -->
+              <div class="bg-white rounded-xl shadow border border-gray-200 p-2">
+                <div class="flex items-center mb-1">
+                  <div class="w-5 h-5 rounded-full bg-gray-300 mr-2 flex items-center justify-center text-gray-600 text-xs font-bold">J</div>
+                  <div>
+                    <p class="text-[10px] font-semibold text-gray-800">John</p>
+                    <p class="text-[8px] text-gray-500">Age 78</p>
+                  </div>
+                </div>
+                <div class="flex items-end space-x-0.5 mt-1 h-12">
+                  <div class="flex-1 bg-blue-400 rounded-sm" style="height:50%"></div>
+                  <div class="flex-1 bg-blue-300 rounded-sm" style="height:45%"></div>
+                  <div class="flex-1 bg-blue-200 rounded-sm" style="height:30%"></div>
+                  <div class="flex-1 bg-blue-500 rounded-sm" style="height:60%"></div>
+                  <div class="flex-1 bg-blue-300 rounded-sm" style="height:55%"></div>
+                  <div class="flex-1 bg-blue-400 rounded-sm" style="height:45%"></div>
+                  <div class="flex-1 bg-blue-200 rounded-sm" style="height:35%"></div>
+                </div>
+                <p class="text-[7.5px] text-gray-600 mt-1"><span class="font-semibold">Mood:</span> low midday, improved by evening</p>
+                <p class="text-[7.5px] text-gray-600"><span class="font-semibold">Check-in:</span> Had a short walk; seemed calm.</p>
+              </div>
+              <!-- Card 3: Eileen -->
+              <div class="bg-white rounded-xl shadow border border-gray-200 p-2">
+                <div class="flex items-center mb-1">
+                  <div class="w-5 h-5 rounded-full bg-gray-300 mr-2 flex items-center justify-center text-gray-600 text-xs font-bold">E</div>
+                  <div>
+                    <p class="text-[10px] font-semibold text-gray-800">Eileen</p>
+                    <p class="text-[8px] text-gray-500">Age 85</p>
+                  </div>
+                </div>
+                <div class="flex items-end space-x-0.5 mt-1 h-12">
+                  <div class="flex-1 bg-blue-500 rounded-sm" style="height:65%"></div>
+                  <div class="flex-1 bg-blue-300 rounded-sm" style="height:50%"></div>
+                  <div class="flex-1 bg-blue-200 rounded-sm" style="height:40%"></div>
+                  <div class="flex-1 bg-blue-400 rounded-sm" style="height:55%"></div>
+                  <div class="flex-1 bg-blue-300 rounded-sm" style="height:45%"></div>
+                  <div class="flex-1 bg-blue-500 rounded-sm" style="height:60%"></div>
+                  <div class="flex-1 bg-blue-200 rounded-sm" style="height:50%"></div>
+                </div>
+                <p class="text-[7.5px] text-gray-600 mt-1"><span class="font-semibold">Mood:</span> a bit anxious at night</p>
+                <p class="text-[7.5px] text-gray-600"><span class="font-semibold">Check-in:</span> Slept poorly; appetite low, needs support.</p>
+              </div>
+            </div>
+            <!-- App footer -->
+            <div class="h-9 bg-blue-100 flex items-center justify-around border-t border-gray-200">
+              <span class="w-2 h-2 bg-blue-300 rounded-full"></span>
+              <span class="w-2 h-2 bg-blue-400 rounded-full"></span>
+              <span class="w-2 h-2 bg-blue-500 rounded-full"></span>
+              <span class="w-2 h-2 bg-blue-400 rounded-full"></span>
+              <span class="w-2 h-2 bg-blue-300 rounded-full"></span>
+            </div>
+          </div>
+        </div>
+        <!-- Email-style report card -->
+        <div class="bg-white border border-blue-100 rounded-2xl shadow-xl p-6 max-w-xs w-full">
+          <p class="text-xs uppercase font-semibold tracking-wide text-blue-500 mb-2">Weekly Care Report</p>
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center text-gray-500 font-bold text-base mr-3">P</div>
+            <div>
+              <p class="text-sm font-semibold text-gray-900">Patient: Patricia</p>
+              <p class="text-xs text-gray-500">Age: 82</p>
+            </div>
+          </div>
+          <p class="text-sm text-gray-700 mb-2"><span class="font-semibold">Mood:</span> Mostly stable with some low days.</p>
+          <p class="text-sm text-gray-700 mb-2"><span class="font-semibold">Medications:</span> Started new evening medication Monday (noted confusion at bedtime).</p>
+          <p class="text-sm text-gray-700"><span class="font-semibold">Notes:</span> Enjoyed a video call with family Tuesday; tearful Saturday morning – carer suggested a visit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Give families a clearer picture -->
+  <section class="py-12 sm:py-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl sm:text-3xl font-bold mb-2 text-gray-900">
+        Give families a clearer picture of the whole person, not just tasks.
+      </h2>
+      <p class="text-gray-700 mb-8 max-w-3xl font-medium">
+        Home care isn’t only about washing, dressing and medication rounds.
+        Caregivers helps your agency give families a clear view of whether their loved one is having more good days than bad,
+        if they might be feeling low, anxious or confused – and when a visit, a call, or a conversation
+        might make a difference.
+      </p>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white shadow-sm border border-gray-100 rounded-xl p-5">
+          <h3 class="font-semibold mb-2 text-gray-900">Visit notes & mood insights</h3>
+          <p class="text-sm text-gray-700">
+            Your carers record daily notes about activities, meals, conversations and emotional observations.
+            This gives families day‑to‑day insight and helps them spot patterns and triggers together with your team to support the whole person.
+          </p>
+        </div>
+        <div class="bg-white shadow-sm border border-gray-100 rounded-xl p-5">
+          <h3 class="font-semibold mb-2 text-gray-900">Medication visibility</h3>
+          <p class="text-sm text-gray-700">
+            Maintain an up‑to‑date view of medications and be aware of any side effects that may arise,
+            so you can keep families informed – not leave them guessing.
+          </p>
+        </div>
+        <div class="bg-white shadow-sm border border-gray-100 rounded-xl p-5">
+          <h3 class="font-semibold mb-2 text-gray-900">Prepared for appointments</h3>
+          <p class="text-sm text-gray-700">
+            When families speak with GPs, hospital teams or mental health professionals,
+            they can share concrete examples from your notes rather than relying on memory alone.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Why family interaction matters -->
+  <section class="py-12 bg-blue-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid md:grid-cols-2 gap-10 items-start">
+        <div>
+        <h2 class="text-2xl sm:text-3xl font-bold mb-3 text-gray-900">
+            Social connection supports mental health.
+          </h2>
+          <p class="text-gray-700 mb-4 font-medium">
+            Meaningful social activities and strong family support can significantly improve positive mental health,
+            life satisfaction and quality of life in older adults, and help reduce depressive symptoms
+            (WHO fact sheet on mental health of older adults【839162393335402†L323-L329】).
+          </p>
+          <p class="text-gray-700 text-sm mb-3">
+            When families have a clear picture of how someone is feeling, they’re more likely to reach out, visit or
+            speak with your care team earlier. Early, informed support can make a real difference in well-being.
+          </p>
+          <p class="text-gray-700 text-sm">
+            Caregivers turns home‑care visits into a bridge between the person, your agency and the family –
+            so emotional and mental health aren’t an afterthought.
+          </p>
+        </div>
+        <div class="bg-white border border-blue-100 rounded-2xl p-5 shadow-sm">
+          <h3 class="text-sm font-semibold text-blue-700 mb-3 uppercase tracking-wide">
+            For agencies: why it matters
+          </h3>
+          <ul class="space-y-3 text-sm text-gray-700">
+            <li>• Demonstrate a genuine focus on emotional & mental wellbeing, not just physical tasks.</li>
+            <li>• Reduce misunderstandings by giving families a transparent view of daily life, mood and medications.</li>
+            <li>• Support earlier escalation to community mental health teams or GPs when something feels “off”.</li>
+            <li>• Strengthen family trust and satisfaction – key to positive reviews and long‑term relationships.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA section -->
+  <section class="py-14 bg-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+      <h2 class="text-2xl sm:text-3xl font-bold mb-3 text-gray-900">
+        Connect families and carers – support the whole person.
+      </h2>
+      <p class="text-gray-700 mb-6 text-base sm:text-lg font-medium">
+        Caregivers makes it easy to demonstrate your commitment to the whole person: their mood,
+        their dignity and their connection to the people they love.
+      </p>
+      <a href="mailto:hello@caregiversapp.com"
+         class="inline-flex justify-center items-center px-7 py-3 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-sm transition">
+        Talk to us about rolling out Caregivers
+      </a>
+      <p class="text-xs text-gray-500 mt-3">
+        Designed for CQC‑registered home care agencies supporting older adults at home.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer with basic links -->
+  <footer class="bg-gray-50 border-t">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex flex-col md:flex-row items-center justify-between text-sm text-gray-600">
+      <p>&copy; 2025 Caregivers (caregiversapp.com). All rights reserved.</p>
+      <div class="space-x-4 mt-2 md:mt-0">
+        <a href="#" class="hover:text-blue-600">Privacy</a>
+        <a href="#" class="hover:text-blue-600">FAQs</a>
+        <a href="#" class="hover:text-blue-600">Support</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
